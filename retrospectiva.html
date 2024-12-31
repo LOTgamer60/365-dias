@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrospectiva 365 Dias</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background: linear-gradient(to right, #fbc2eb, #a18cd1);
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            font-family: 'Brush Script MT', cursive;
+            font-size: 2.5em;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            width: 90%;
+            max-width: 1000px;
+        }
+        .gallery-item {
+            text-align: center;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .gallery p {
+            margin-top: 10px;
+            font-size: 1em;
+            color: #555;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            text-align: center;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nossa Retrospectiva do Ano</h1>
+    </header>
+    <div class="gallery">
+        <!-- Substitua os caminhos das imagens abaixo pelas suas fotos e textos -->
+        <div class="gallery-item">
+            <img src="images/Aniversário dela.png" alt="Foto 1">
+            <p>Esse dia foi tenso kkkkkkkkk, lembro até hj</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/Ela na call.jpeg" alt="Foto 2">
+            <p>Você na call akakakkaka</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/Eu e ela.jpeg" alt="Foto 3">
+            <p>Nossa primeira foto, e você ainda pegou meu celular</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/Paparasi.png" alt="Foto 4">
+            <p>Muitos paparsi né vei</p>
+        </div>
+    </div>
+    <button class="corner-button" onclick="window.location.href='terceira_pagina.html'">Próxima Página</button>
+    <footer>
+        <p>Obrigado por fazer parte do meu ano. Vamos juntos para mais 365 dias incríveis! ❤️</p>
+    </footer>
+</body>
+</html>
